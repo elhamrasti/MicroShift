@@ -29,12 +29,15 @@ Upgrading: Focus on the effects of upgrading RHEL and MicroShift on system resou
 Summary and Conclusions: Key findings and future optimization suggestions.
 
 Requirements
+## Technologies Used
 
-RHEL 9.5 (or compatible version)
-MicroShift (latest version)
-Docker or Podman (for container management)
-Hardware suitable for edge computing (e.g., servers or single-board computers)
-Installation
+- **MicroShift**: Lightweight Kubernetes distribution designed for edge computing.
+- **Kubernetes**: Orchestration platform for managing containerized applications.
+- **RHEL 9.5**: Operating system used for setting up MicroShift.
+- **Containers**: OpenShift CLI(oc) for container management.
+- **Edge Computing**: Optimizing computing at the edge of the network for lower latency and improved performance.
+
+
 
 Follow these steps to deploy MicroShift on RHEL 9.5:
 
